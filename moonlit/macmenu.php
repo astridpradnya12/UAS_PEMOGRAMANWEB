@@ -14,9 +14,8 @@
       <p>Savor the Sweetness, One Macaron at a Time</p>
     </div>
     <div class="header-right">
-        <a href="Index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+        <a href="Index.php">Home</a>
+        <a href="menu.php">Menu</a>
       </div>
   </div>
   <div class="main-content">

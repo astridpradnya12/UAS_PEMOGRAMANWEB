@@ -10,40 +10,49 @@
 <body>
   <div class="header">
     <div class="header-container">
-      <h1>Croissant</h1>
-      <p>Crisp on the Outside, Soft on the Inside</p>
+      <h1>Cupcake</h1>
+      <p>A Sweet Delight You Can Hold in Your Hand</p>
     </div>
     <div class="header-right">
-        <a href="Index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+        <a href="Index.php">Home</a>
+        <a href="menu.php">Menu</a>
       </div>
   </div>
   <div class="main-content">
     <div class="main-content image">
-      <div class="custom image"><img src="assets/croCover.jpg"></div>
+      <div class="custom image"><img src="assets/cupCover.jpg"></div>
     </div>
     <h1> Variant</h2>
     <div class="products">
       <div class="product-mac">
-        <img src="assets/croChoAlm.jpeg" alt="Croissant">
-        <h2>Chocolate Almond</h2>
-        <p>Rp. 25.000</p>
+        <img src="assets/cupChoco.jpeg" alt="Cupcake">
+        <h2>Chocolate</h2>
+        <p>Rp. 15.000</p>
       </div>
       <div class="product-mac">
-        <img src="assets/croMatcha.jpg" alt="Croissant">
-        <h2>Matcha</h2>
-        <p>Rp. 25.000</p>
+        <img src="assets/cupOreo.jpeg" alt="Cupcake">
+        <h2>Oreo</h2>
+        <p>Rp. 15.000</p>
       </div>
       <div class="product-mac">
-        <img src="assets/croStrawVanilla.jpeg" alt="Croissant">
-        <h2>Strawberry Vaniila</h2>
-        <p>Rp. 25.000</p>
+        <img src="assets/cupLemon.jpeg" alt="Cupcake">
+        <h2>Lemon</h2>
+        <p>Rp. 15.000</p>
       </div>
       <div class="product-mac">
-        <img src="assets/croVanilla.jpeg" alt="Croissant">
-        <h2>Vanilla</h2>
-        <p>Rp. 25.000</p>
+        <img src="assets/cupStrawberry.jpeg" alt="Cupcake">
+        <h2>Strawberry</h2>
+        <p>Rp. 15.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/cupVanStraw.jpeg" alt="Cupcake">
+        <h2>Vanilla Strawberry</h2>
+        <p>Rp. 15.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/CupBirthday.jpeg" alt="Cupcake">
+        <h2>Bitrthday</h2>
+        <p>Rp. 15.000</p>
       </div>
     </div>
   </div>

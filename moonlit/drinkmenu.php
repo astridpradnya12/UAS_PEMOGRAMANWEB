@@ -10,35 +10,59 @@
 <body>
   <div class="header">
     <div class="header-container">
-      <h1>Layer Cake</h1>
-      <p>Every Layer Tells a Sweet Story</p>
+      <h1>Drink</h1>
+      <p>Cool Down with a Splash of Sweetnes</p>
     </div>
     <div class="header-right">
-        <a href="Index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+        <a href="Index.php">Home</a>
+        <a href="menu.php">Menu</a>
       </div>
   </div>
   <div class="main-content">
     <div class="main-content image">
-      <div class="custom image"><img src="assets/layerCover.jpg"></div>
+      <div class="custom image"><img src="assets/driCover.jpg"></div>
     </div>
     <h1> Variant</h2>
     <div class="products">
       <div class="product-mac">
-        <img src="assets/layerOreo.jpeg" alt="Layer Cake">
-        <h2>Oreo</h2>
+        <img src="assets/driCoffee.jpeg" alt="Drink">
+        <h2>Coffee</h2>
         <p>Rp. 30.000</p>
       </div>
       <div class="product-mac">
-        <img src="assets/layerStrawberry.jpeg" alt="Layer Cake">
-        <h2>Strawberry</h2>
-        <p>Rp. 30.000</p>
+        <img src="assets/driInfusedWater.jpeg" alt="Drink">
+        <h2>Infused Water</h2>
+        <p>Rp. 25.000</p>
       </div>
       <div class="product-mac">
-        <img src="assets/layerVanilla.jpeg" alt="Layer Cake">
-        <h2>Vanilla</h2>
-        <p>Rp. 30.000</p>
+        <img src="assets/driLemonTea.jpeg" alt="Drink">
+        <h2>Lemon Tea</h2>
+        <p>Rp. 20.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/driLychee.jpeg" alt="Drink">
+        <h2>Lychee Tea</h2>
+        <p>Rp. 20.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/driMatcha.jpeg" alt="Drink">
+        <h2>Matcha</h2>
+        <p>Rp. 25.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/driRedVelvet.jpeg" alt="Drink">
+        <h2>Red Velvet</h2>
+        <p>Rp. 25.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/driTaro.jpeg" alt="Drink">
+        <h2>Taro</h2>
+        <p>Rp. 25.000</p>
+      </div>
+      <div class="product-mac">
+        <img src="assets/driThaitea.jpeg" alt="Drink">
+        <h2>Thai Tea</h2>
+        <p>Rp. 20.000</p>
       </div>
     </div>
   </div>
