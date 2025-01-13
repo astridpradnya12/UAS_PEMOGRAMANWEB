@@ -16,6 +16,7 @@
     <div class="header-right">
         <a href="index.php">Home</a>
         <a href="menu.php">Menu</a>
+        <a href="contact.php">Menu</a>
       </div>
   </div>
   <div class="main-content">
