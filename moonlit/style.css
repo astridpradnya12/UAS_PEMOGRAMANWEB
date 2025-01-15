@@ -5,21 +5,21 @@ body {
 }
 
 .header {
-    background-color: #F8C8DC;
-    padding:15px;
+    background-color: #f8c8dc;
+    padding: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 
 .header-container h1 {
     display: inline-block;
-    gap: 15px;
+    gap: 10px;
     text-decoration: none;
     color: #333;
     font-size: 4em;
@@ -32,7 +32,7 @@ body {
 
 .header-right {
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
 
 .header-right a {

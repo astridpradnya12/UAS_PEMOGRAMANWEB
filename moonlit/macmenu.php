@@ -25,7 +25,7 @@
     <h1> Variant</h2>
     <div class="products">
       <div class="product-mac">
-        <img src="assest/macCoklat.jpeg" alt="Macaroon">
+        <img src="assets/macCoklat.jpeg" alt="Macaroon">
         <h2>Chocolate</h2>
         <p>Rp. 16.000</p>
       </div>
