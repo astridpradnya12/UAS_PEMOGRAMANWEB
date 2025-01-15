@@ -2,7 +2,7 @@
 include 'admin_proses.php';
 
 # CREATE
-if (isset['REQUEST_METHOD'] === 'POST') {
+if (isset($_POST['create'])) {
     $id_produk = $_POST['id produk'];
     $nama_produk = $_POST['nama_produk'];
     $deskripsi = $_POST['deskripsi'];
@@ -17,50 +17,65 @@ if (isset['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+# UPDATE
+if (isset($_POST['update'])) {
     $id_produk = $_POST['id produk'];
     $nama_produk = $_POST['nama_produk'];
     $deskripsi = $_POST['deskripsi'];
     $qty = $_POST['qty'];
     $harga = $_POST['harga'];
-    
-    $sql = "UPDATE produk SET id_produk= '$id_produk',nama_produk = '$nama_produk', deskripsi = '$deskripsi, qty = 'qty', harga = '$harga',  WHERE id = $id";
-    $conn->query($sql);
 
-    header('Location: index.php');
-    exit;
+    $sql = "UPDATE produk SET id_produk='$id_produk', nama_produk='$nama_produk', deskripsi='$deskripsi', qty='$qty', harga='$harga' 
+    if ($conn->query($sql) === TRUE) {
+        header("Location: produk.php");
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+# DELETE
+if (isset($_GET['delete'])) {
+    $id = $_GET['delete'];
+
+    $sql = "DELETE FROM users WHERE id=$id";
+    if ($conn->query($sql) === TRUE) {
+        header("Location: produk.php");
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+# EDIT
+if (isset($_GET['edit'])) {
+    $id = $_GET['edit'];
+
+    $result = $conn->query("SELECT * FROM produk WHERE id=$id");
+    $row = $result->fetch_assoc();
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edit Data</title>
+    </head>
+    <body>
+        <h2>Edit Data</h2>
+        <form action="proses_produk.php" method="POST">
+            <input type="hidden" name="id_produk" value="<?= $row['id_produk'] ?>">
+            <label for="nama">Nama Produk:</label>
+            <input type="text" name="nama_produk" value="<?= $row['nama_produk'] ?>" required><br>
+            <label for="nama">Deskripsi:</label>
+            <input type="text" name="deskripsi" value="<?= $row['deskripsi'] ?>" required><br>
+            <label for="email">Qty:</label>
+            <input type="email" name="qty" value="<?= $row['qty'] ?>" required><br>
+            <label for="email">Harga:</label>
+            <input type="text" name="harga" value="<?= $row['harga'] ?>" required><br>
+            <button type="submit" name="update">Update</button>
+        </form>
+        <a href="produk.php">Kembali</a>
+    </body>
+    </html>
+    <?php
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial
-    <title>Moonlit Bakery</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-   <div class="header">
-   <div class="header-container">
-     <h1>Admin</h1>
-   </div>
-   <div class="header-right">
-   <a href="logout.php">Logout</a>
-   </div>
-   </div class="main-content">
-   <link rel="stylesheet" type="text/css" href="stylee.css" />
-<body>
-    <h1>Edit Produk</h1>
-    <form method="POST">
-        <label>Id Produk: <input type="text" name="id_produk" value="<?= $data['id_produk'] ?>" required></label><br>
-        <label>Nama Produk: <input type="text" name="nama_produk" value="<?= $data['nama_produk'] ?>" required></label><br>
-        <label>Deskripsi: <textarea name="deskripsi"><?= $data['deskripsi'] ?></textarea></label><br>
-        <label>Qty: <input type="number" name="qty" value="<?= $data['qty'] ?>" required></label><br>
-        <label>Harga: <input type="number" name="harga" value="<?= $data['harga'] ?>" required></label><br>
-        
-        <button type="submit">Simpan</button>
-    </form>
-</body>
-</html>

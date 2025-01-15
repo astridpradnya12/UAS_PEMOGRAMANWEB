@@ -20,7 +20,7 @@ if($cek > 0){
     }else if($data['role']=="pelanggan"){
         $_SESSION['username'] = $username;
         $_SESSION['role'] = "pelanggan";
-        header("location:homepage.php");
+        header("location:index.php");
     }
 } else {
     echo "Username atau password salah";

@@ -44,8 +44,8 @@ $result = $conn->query($query);
                     <td><?= htmlspecialchars($row['qty']) ?></td>
                     <td><?= htmlspecialchars($row['harga']) ?></td>
                     <td>
-                        <a href="edit_produk.php?id=<?= $row['id'] ?>">Edit</a>
-                        <a href="produk.php?id=<?= $row['id'] ?>" onclick="return confirm('Yakin hapus produk ini?')">Hapus</a>
+                        <a href="proses_produk.php?id=<?= $row['id'] ?>">Edit</a>
+                        <a href="proses_produk.php?id=<?= $row['id'] ?>" onclick="return confirm('Yakin hapus produk ini?')">Hapus</a>
                     </td>
                 </tr>
             <?php endwhile; ?>
