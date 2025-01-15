@@ -2,7 +2,9 @@
 include 'admin_proses.php';
 
 // Ambil data produk
-$result = $conn->query("SELECT * FROM produk");
+$query = "SELECT * FROM produk";
+$result = $conn->query($query);
+
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +24,8 @@ $result = $conn->query("SELECT * FROM produk");
    <a href="logout.php">Logout</a>
    </div>
    </div class="main-content">
-   <link rel="stylesheet" type="text/css" href="stylee.css" />
+        <button> <a href="tambah_produk.php">Tambah Produk</a></button>
+        <link rel="stylesheet" type="text/css" href="stylee.css" />
     <table border="1">
         <tr>
             <th>ID Produk</th>
@@ -30,20 +33,27 @@ $result = $conn->query("SELECT * FROM produk");
             <th>Deskripsi</th>
             <th>Qty</th>
             <th>Harga</th>
+            <th>Update</th>
         </tr>
-        <?php while ($row = $result->fetch_assoc()): ?>
-        <tr>
-            <td><?= $row['id_produk'] ?></td>
-            <td><?= $row['nama_produk'] ?></td>
-            <td><?= $row['deskripsi'] ?></td>
-            <td><?= $row['qty'] ?></td>
-            <td><?= $row['harga'] ?></td>
-            <td>
-                <a href="edit_produk.php?id=<?= $row['id'] ?>">Edit</a>
-                <a href="hapus_produk.php?id=<?= $row['id'] ?>" onclick="return confirm('Yakin hapus?')">Hapus</a>
-            </td>
-        </tr>
-        <?php endwhile; ?>
+        <?php if ($result->num_rows > 0): ?>
+            <?php while ($row = $result->fetch_assoc()): ?>
+                <tr>
+                    <td><?= htmlspecialchars($row['id_produk']) ?></td>
+                    <td><?= htmlspecialchars($row['nama_produk']) ?></td>
+                    <td><?= htmlspecialchars($row['deskripsi']) ?></td>
+                    <td><?= htmlspecialchars($row['qty']) ?></td>
+                    <td><?= htmlspecialchars($row['harga']) ?></td>
+                    <td>
+                        <a href="edit_produk.php?id=<?= $row['id'] ?>">Edit</a>
+                        <a href="produk.php?id=<?= $row['id'] ?>" onclick="return confirm('Yakin hapus produk ini?')">Hapus</a>
+                    </td>
+                </tr>
+            <?php endwhile; ?>
+        <?php else: ?>
+            <tr>
+                <td colspan="6">Tidak ada data produk.</td>
+            </tr>
+        <?php endif; ?>
     </table>
 </body>
 </html>

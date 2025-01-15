@@ -1,9 +1,23 @@
 <?php
 include 'admin_proses.php';
 
-$id = $_GET['id'];
-$result = $conn->query("SELECT * FROM produk WHERE id = $id");
-$data = $result->fetch_assoc();
+# CREATE
+if (isset['REQUEST_METHOD'] === 'POST') {
+    $id_produk = $_POST['id produk'];
+    $nama_produk = $_POST['nama_produk'];
+    $deskripsi = $_POST['deskripsi'];
+    $qty = $_POST['qty'];
+    $harga = $_POST['harga'];
+
+    $sql = "INSERT INTO produk (id_produk,nama_produk, deskripsi, qty, harga ) VALUES ('$id_produk','$nama_pro
+    if ($conn->query($sql) === TRUE) {
+        header("Location: index.php");
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id_produk = $_POST['id produk'];
@@ -40,9 +54,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <h1>Edit Produk</h1>
     <form method="POST">
+        <label>Id Produk: <input type="text" name="id_produk" value="<?= $data['id_produk'] ?>" required></label><br>
         <label>Nama Produk: <input type="text" name="nama_produk" value="<?= $data['nama_produk'] ?>" required></label><br>
-        <label>Harga: <input type="number" name="harga" value="<?= $data['harga'] ?>" required></label><br>
         <label>Deskripsi: <textarea name="deskripsi"><?= $data['deskripsi'] ?></textarea></label><br>
+        <label>Qty: <input type="number" name="qty" value="<?= $data['qty'] ?>" required></label><br>
+        <label>Harga: <input type="number" name="harga" value="<?= $data['harga'] ?>" required></label><br>
+        
         <button type="submit">Simpan</button>
     </form>
 </body>
