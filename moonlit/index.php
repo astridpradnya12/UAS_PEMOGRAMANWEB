@@ -10,7 +10,7 @@
 <body>
   <div class="header">
     <div class="header-container">
-      <h1>Moonlit Pastry</h1>
+    <img src="LOGO.png" alt="Moonlit Bakery Logo" class="logo">
     </div>
     <div class="header-right">
       <a href="index.php">Home</a>
