@@ -40,7 +40,7 @@
     </div>
 
   <form id="formmember" method="post" action="validate_login.php">
-      <label for="username">username:</label>
+      <label for="username">Username:</label>
       <input type="username" id="username" name="username" required>
 
       <label for="password">Password:</label>

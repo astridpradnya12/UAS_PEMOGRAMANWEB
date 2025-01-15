@@ -19,7 +19,9 @@
     </div>
   </div>
   <div class="main-content">
-    <button> <a href="tambah_user.php">tambah</a></button>
+    <button> <a href="tambah_user.php">Tambah</a></button>
+    <button><a href="produk.php">Stock</a></button>
+    <link rel="stylesheet" type="text/css" href="stylee.css" />
   <table border="1" cellpadding="10">
         <tr>
             <th>ID</th>

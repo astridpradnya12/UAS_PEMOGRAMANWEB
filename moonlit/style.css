@@ -21,7 +21,6 @@ body {
     display: inline-block;
     gap: 10px;
     text-decoration: none;
-    color: #333;
     font-size: 4em;
     font-weight: bold;
 }
@@ -84,7 +83,7 @@ body {
 }
 
 .main-content-home p2 {
-    padding: 100px;
+    padding: 20px;
     font-size: 20px;
     text-align: center;
 }
