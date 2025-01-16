@@ -3,6 +3,7 @@ include 'admin_proses.php';
 
 // CREATE
 if (isset($_POST['create'])) {
+    $id = $_POST['id_produk'];
     $nama_produk = $_POST['nama_produk']; 
     $deskripsi = $_POST['deskripsi'];
     $qty = $_POST['qty'];
@@ -18,15 +19,15 @@ if (isset($_POST['create'])) {
 
 // UPDATE
 if (isset($_POST['update'])) {
-    $id_produk = $_POST['id_produk'];
+    $id = $_POST['id_produk'];
     $nama_produk = $_POST['nama_produk'];
     $deskripsi = $_POST['deskripsi'];
     $qty = $_POST['qty'];
     $harga = $_POST['harga'];
 
-    $sql = "UPDATE produk SET nama_produk='$nama_produk', deskripsi='$deskripsi', qty='$qty', harga='$harga' WHERE id_produk=$id_produk";
+    $sql = "UPDATE produk SET nama_produk='$nama_produk', deskripsi='$deskripsi', qty='$qty', harga='$harga' WHERE id_produk=$id";
     if ($conn->query($sql) === TRUE) {
-        header("Location: admin.php");
+        header("Location: produk.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
@@ -36,7 +37,7 @@ if (isset($_POST['update'])) {
 if (isset($_GET['delete'])) {
     $id = $_GET['delete'];
 
-    $sql = "DELETE FROM produk WHERE id_produk=$id_produk";
+    $sql = "DELETE FROM produk WHERE id_produk=$id";
     if ($conn->query($sql) === TRUE) {
         header("Location: produk.php");
     } else {
@@ -48,7 +49,7 @@ if (isset($_GET['delete'])) {
 if (isset($_GET['edit'])) {
     $id = $_GET['edit'];
 
-    $result = $conn->query("SELECT * FROM produk WHERE id_produk=$id_produk");
+    $result = $conn->query("SELECT * FROM produk WHERE id_produk=$id");
     $row = $result->fetch_assoc();
     ?>
     <!DOCTYPE html>
@@ -60,7 +61,7 @@ if (isset($_GET['edit'])) {
     </head>
     <body>
         <h2>Edit Data</h2>
-        <form action="proses.php" method="POST">
+        <form action="proses_produk.php" method="POST">
             <input type="hidden" name="id_produk" value="<?= $row['id_produk'] ?>">
             <label for="nama">nama produk:</label>
             <input type="text" name="nama_produk" value="<?= $row['nama_produk'] ?>" required><br>
