@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    </div class="main-content">
    <link rel="stylesheet" type="text/css" href="style.css" />
 <body>
-    <form action="proses_produk.php" method="post">
+    <form action="proses_tambah_produk.php" method="post">
         <label for="id_produk">Id Produk:</label>
         <input type="text" name="id_produk" id="id_produk" value="<?= htmlspecialchars($_POST['id_produk'] ?? '') ?>"><br><br>
 
