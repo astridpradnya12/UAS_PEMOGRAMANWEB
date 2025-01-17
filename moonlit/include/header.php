@@ -9,10 +9,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <nav>
-     <div class="header-container">
         <div class="logo"><img src="assets/LOGO.png" alt="Moonlit Bakery Logo"></div>
-     </div>
-        <ul class="header-right">
+        <ul class="nav-links">
             <li><a href="index.php">Home</a></li>
             <li><a href="menu.php">Menu</a></li>
             <li><a href="login.php">Login</a></li>
