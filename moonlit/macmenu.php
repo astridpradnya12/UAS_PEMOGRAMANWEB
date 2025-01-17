@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moonlit Bakery</title>
-  <link rel="icon" type="image/x-icon" href="logo.png">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlit Bakery</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <nav>
+      <div class="header">
+        <div class="header-container">
+        <h1>Macaroon</h1>
+        <p>Savor the Sweetness, One Macaron at a Time</p>
+      </div>
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="menu.php">Menu</a></li>
+        </ul>
+        <button class="cart-button" onclick="location.href='checkout.php'">Cart (<span
+                id="cart-count">0</span>)</button>
+    </nav>
 </head>
 <body>
-  <div class="header">
-    <div class="header-container">
-      <h1>Macaroon</h1>
-      <p>Savor the Sweetness, One Macaron at a Time</p>
-    </div>
-    <div class="header-right">
-        <a href="Index.php">Home</a>
-        <a href="menu.php">Menu</a>
-      </div>
-  </div>
   <div class="main-content">
     <div class="main-content image">
       <div class="custom image"><img src="assets/macCover.jpg"></div>
@@ -66,6 +70,7 @@
       </div>
     </div>
   </div>
+</body>
 <footer>
   <div class="social-links">
       <a href="#">

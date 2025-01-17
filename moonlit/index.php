@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="assets/style.css" />
   <section class="slider">
     <div class="slides">      
-        <img src="assets/shop.jpg" alt="Shop" />     
+        <img src="assets/shop.jpeg" alt="Shop" />     
         <img src="assets/macCover.jpg" alt="Macaroon" />
         <img src="assets/croCover.jpg" alt="Croissant" />
         <img src="assets/cookCover.jpg" alt="Cookies" />

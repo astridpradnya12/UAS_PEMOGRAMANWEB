@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moonlit Bakery</title>
-  <link rel="icon" type="image/x-icon" href="logo.png">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-  <div class="header">
-    <div class="header-container">
-    <img src="assets/LOGO.png" alt="Moonlit Bakery Logo" class="logo">
-    </div>
-    <div class="header-right">
-    <a href="index.php">Home</a>
-      <a href="menu.php">Menu</a>
-      <a href="login.php">Login</a>
-      <a href="daftar.php">Daftar</a>
-    </div>
-  </div>
+<?php  include 'include/header.php'; ?>
   <div class="main-content">
     <h1> Our Menu</h2>
     <div class="products">

@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moonlit Bakery</title>
-  <link rel="icon" type="image/x-icon" href="logo.png">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlit Bakery</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <nav>
+      <div class="header">
+        <div class="header-container">
+        <h1>Cookies</h1>
+        <p>Cookie Cravings? We've Got You Covered!</p>
+      </div>
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="menu.php">Menu</a></li>
+        </ul>
+        <button class="cart-button" onclick="location.href='/utspakhuma/checkout.php'">Cart (<span
+                id="cart-count">0</span>)</button>
+    </nav>
 </head>
 <body>
-  <div class="header">
-    <div class="header-container">
-      <h1>Cookie</h1>
-      <p>Cookie Cravings? We've Got You Covered!</p>
-    </div>
-    <div class="header-right">
-        <a href="index.php">Home</a>
-        <a href="menu.php">Menu</a>
-        <a href="contact.php">Menu</a>
-      </div>
-  </div>
   <div class="main-content">
     <div class="main-content image">
       <div class="custom image"><img src="assets/cookCover.jpg"></div>
