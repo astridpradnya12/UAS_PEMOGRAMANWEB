@@ -16,7 +16,7 @@
             <li><a href="login.php">Login</a></li>
             <li><a href="daftar.php">Daftar</a></li>
         </ul>
-        <button class="cart-button" onclick="location.href='/utspakhuma/checkout.php'">Cart (<span
+        <button class="cart-button" onclick="location.href='checkout.php'">Cart (<span
                 id="cart-count">0</span>)</button>
     </nav>
 </head>

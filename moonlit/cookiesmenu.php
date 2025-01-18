@@ -17,7 +17,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="menu.php">Menu</a></li>
         </ul>
-        <button class="cart-button" onclick="location.href='/utspakhuma/checkout.php'">Cart (<span
+        <button class="cart-button" onclick="location.href='checkout.php'">Cart (<span
                 id="cart-count">0</span>)</button>
     </nav>
 </head>
@@ -26,6 +26,36 @@
     <div class="main-content image">
       <div class="custom image"><img src="assets/cookCover.jpg"></div>
     </div>
+    <form method="POST" action="add_to_cart.php">
+    <select name="product_id" id="product_id">
+          <?php
+            // Koneksi ke database
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "moonlit";
+
+            $conn = new mysqli($servername, $username, $password, $dbname);
+
+            // Periksa koneksi
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            }
+
+            // Ambil data produk
+            $query = "SELECT * FROM produk";
+            $result = $conn->query($query);
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "<option value='" . $row['id'] . "'>" . $row['name'] . " (Stock: " . $row['stock'] . ")</option>";
+                }
+            }
+
+            // Tutup koneksi
+            $conn->close();
+            ?>
+        </select>
     <h1> Variant</h2>
     <div class="products">
       <div class="product-mac">
@@ -33,16 +63,19 @@
         <h2>Chocolate</h2>
         <p>Rp. 18.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cookMatcha.jpeg" alt="Cookie">
         <h2>Matcha</h2>
         <p>Rp. 18.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cookOri.jpeg" alt="Cookie">
         <h2>Original</h2>
         <p>Rp. 18.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
     </div>
   </div>
 <footer>

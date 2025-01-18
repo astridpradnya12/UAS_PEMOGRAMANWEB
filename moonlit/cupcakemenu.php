@@ -18,7 +18,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="menu.php">Menu</a></li>
         </ul>
-        <button class="cart-button" onclick="location.href='/utspakhuma/checkout.php'">Cart (<span
+        <button class="cart-button" onclick="location.href='checkout.php'">Cart (<span
                 id="cart-count">0</span>)</button>
     </nav>
 </head>
