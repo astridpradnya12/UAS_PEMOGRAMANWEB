@@ -32,25 +32,26 @@
         <img src="assets/croChoAlm.jpeg" alt="Croissant">
         <h2>Chocolate Almond</h2>
         <p>Rp. 25.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/croMatcha.jpg" alt="Croissant">
         <h2>Matcha</h2>
         <p>Rp. 25.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/croStrawVanilla.jpeg" alt="Croissant">
         <h2>Strawberry Vaniila</h2>
         <p>Rp. 25.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/croVanilla.jpeg" alt="Croissant">
         <h2>Vanilla</h2>
         <p>Rp. 25.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
     </div>
   </div>
 <footer>

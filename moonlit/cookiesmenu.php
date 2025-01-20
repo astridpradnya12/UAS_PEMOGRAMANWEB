@@ -62,20 +62,20 @@
         <img src="assets/cookChoco.jpeg" alt="Cookie">
         <h2>Chocolate</h2>
         <p>Rp. 18.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cookMatcha.jpeg" alt="Cookie">
         <h2>Matcha</h2>
         <p>Rp. 18.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cookOri.jpeg" alt="Cookie">
         <h2>Original</h2>
         <p>Rp. 18.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
     </div>
   </div>
 <footer>

@@ -32,20 +32,20 @@
         <img src="assets/layerOreo.jpeg" alt="Layer Cake">
         <h2>Oreo</h2>
         <p>Rp. 30.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/layerStrawberry.jpeg" alt="Layer Cake">
         <h2>Strawberry</h2>
         <p>Rp. 30.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/layerVanilla.jpeg" alt="Layer Cake">
         <h2>Vanilla</h2>
         <p>Rp. 30.000</p>
+        <button class="add-to-cart-button">Add to Cart</button>
       </div>
-      <button class="add-to-cart-button">Add to Cart</button>
     </div>
   </div>
 </body>
