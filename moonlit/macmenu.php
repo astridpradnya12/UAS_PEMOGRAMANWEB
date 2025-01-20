@@ -33,41 +33,49 @@
         <h2>Chocolate</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macBlueberry.jpeg" alt="Macaroon">
         <h2>Blueberry</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macLemon.jpeg" alt="Macaroon">
         <h2>Lemon</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macMatcha.jpeg" alt="Macaroon">
         <h2>Matcha</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macOrange.jpeg" alt="Macaroon">
         <h2>Orange</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macStrawbery.jpeg" alt="Macaroon">
         <h2>Strawberry</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macTaro.jpeg" alt="Macaroon">
         <h2>Taro</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/macVanilla.jpeg" alt="Macaroon">
         <h2>Vanilla</h2>
         <p>Rp. 16.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
     </div>
   </div>
 </body>
