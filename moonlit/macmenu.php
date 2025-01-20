@@ -32,24 +32,32 @@
         <img src="assets/macCoklat.jpeg" alt="Macaroon">
         <h2>Chocolate</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1101">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/macBlueberry.jpeg" alt="Macaroon">
         <h2>Blueberry</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1102">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/macLemon.jpeg" alt="Macaroon">
         <h2>Lemon</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1103">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/macMatcha.jpeg" alt="Macaroon">
         <h2>Matcha</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1104">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       
@@ -57,24 +65,32 @@
         <img src="assets/macOrange.jpeg" alt="Macaroon">
         <h2>Orange</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1105">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/macStrawbery.jpeg" alt="Macaroon">
         <h2>Strawberry</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1106">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/macTaro.jpeg" alt="Macaroon">
         <h2>Taro</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1107">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/macVanilla.jpeg" alt="Macaroon">
         <h2>Vanilla</h2>
         <p>Rp. 16.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1108">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
     </div>
