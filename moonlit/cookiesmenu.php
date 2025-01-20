@@ -25,37 +25,7 @@
   <div class="main-content">
     <div class="main-content image">
       <div class="custom image"><img src="assets/cookCover.jpg"></div>
-    </div>
-    <form method="POST" action="add_to_cart.php">
-    <select name="product_id" id="product_id">
-          <?php
-            // Koneksi ke database
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "moonlit";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-
-            // Periksa koneksi
-            if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-            }
-
-            // Ambil data produk
-            $query = "SELECT * FROM produk";
-            $result = $conn->query($query);
-
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    echo "<option value='" . $row['id'] . "'>" . $row['name'] . " (Stock: " . $row['stock'] . ")</option>";
-                }
-            }
-
-            // Tutup koneksi
-            $conn->close();
-            ?>
-        </select>
+    </div>    
     <h1> Variant</h2>
     <div class="products">
       <div class="product-mac">
@@ -68,6 +38,8 @@
         <img src="assets/cookMatcha.jpeg" alt="Cookie">
         <h2>Matcha</h2>
         <p>Rp. 18.000</p>
+        <form action="add_to_cart.php" method="POST">
+        <input type="hidden" name="productid" value="1302">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
