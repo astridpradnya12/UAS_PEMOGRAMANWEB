@@ -30,7 +30,7 @@
     <h2>Whats the story behind of this business?</h2>
     <p2>Founded in 2018 by Emma, Moonlit Bakery began as a dream to bring a touch of magic to everyday treats. Located in the heart of town, the bakery is known for its unique, moonlit-inspired decor and inviting atmosphere, designed to make everyone feel at home.
       Emma started as a home baker, perfecting her recipes late at night, and eventually took the leap to create Moonlit Bakery as a haven for all things sweet and comforting. 
-      With a menu featuring delicate croissants, colorful macarons, and signature moon-themed desserts, Moonlit Bakery has quickly become a beloved spot for locals. Each treat is crafted with care, offering customers a cozy escape, a sense of community, and a little magic in every bite.</p2>
+      With a menu featuring delicate croissants, colorful macarons, and signature moon-themed desserts, Moonlit Bakery has quickly become a beloved spot for locals. Each treat is created with care, offering customers a cozy escape, a sense of community, and a little hint of magic in every bite.</p2>
   </div>
 
 <script src="script.js".js></script>
