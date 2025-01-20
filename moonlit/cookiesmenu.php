@@ -32,6 +32,8 @@
         <img src="assets/cookChoco.jpeg" alt="Cookie">
         <h2>Chocolate</h2>
         <p>Rp. 18.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1301">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -46,6 +48,8 @@
         <img src="assets/cookOri.jpeg" alt="Cookie">
         <h2>Original</h2>
         <p>Rp. 18.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1303">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
     </div>
