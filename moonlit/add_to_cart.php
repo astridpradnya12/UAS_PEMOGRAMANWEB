@@ -1,37 +1,12 @@
 <?php  include 'koneksi_produk.php';
 
-// Proses tombol "Add to Cart"
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['product_id'])) {
-    $product_id = $_POST['product_id'];
+$productId = $_POSTI 'productid' ];
+// Simpan data ke tabel keranjang belanja
+$sql = "INSERT INTO cart (product_id,user_id) VALUES ('$productId', 1)";
 
-    // Ambil data produk dari database
-    $query = "SELECT * FROM products WHERE id = ?";
-    $stmt = $conn->prepare($query);
-    $stmt->bind_param("i", $product_id);
-    $stmt->execute();
-    $result = $stmt->get_result();
+// Ganti 1 dengan ID user jika sudah ada sistem login
+    if (Sconn->query (sql) === TRUE) {echo json encode ([ 'message' =>'Product added to cart']);} 
+    else {echo json_encode ([ 'message' =>'Error adding product' ]) ;}
 
-    if ($result->num_rows > 0) {
-        $product = $result->fetch_assoc();
-
-        // Periksa stok
-        if ($product['stock'] > 0) {
-            // Kurangi stok produk
-            $new_stock = $product['stock'] - 1;
-            $update_query = "UPDATE products SET stock = ? WHERE id = ?";
-            $update_stmt = $conn->prepare($update_query);
-            $update_stmt->bind_param("ii", $new_stock, $product_id);
-            $update_stmt->execute();
-
-            echo "Product added to cart successfully!";
-        } else {
-            echo "Product is out of stock!";
-        }
-    } else {
-        echo "Product not found!";
-    }
-}
-
-// Tutup koneksi
-$conn->close();
+$conn-›close () ;
 ?>

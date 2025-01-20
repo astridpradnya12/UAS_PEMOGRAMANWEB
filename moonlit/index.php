@@ -5,14 +5,13 @@
     <link rel="stylesheet" href="assets/style.css" />
   <section class="slider">
     <div class="slides">      
-        <img src="assets/shop.jpeg" alt="Shop" />     
-        <img src="assets/macCover.jpg" alt="Macaroon" />
-        <img src="assets/croCover.jpg" alt="Croissant" />
-        <img src="assets/cookCover.jpg" alt="Cookies" />
-        <img src="assets/cupCover.jpg" alt="Cupcake" />
-        <img src="assets/layerCover.jpg" alt="Layer Cake" />
-        <img src="assets/driCover.jpg" alt="Drink" />
-        <img src="assets/cover.jpeg" alt="Cover" />
+        <img src="assets/slide1.jpeg" alt="Slide1" />     
+        <img src="assets/slide2.jpeg" alt="Slide2" />
+        <img src="assets/slide3.jpeg" alt="Slide3" />
+        <img src="assets/slide4.jpeg" alt="Slide4" />
+        <img src="assets/slide5.jpeg" alt="Slide5" />
+        <img src="assets/slide6.jpeg" alt="Slide6" />
+        <img src="assets/slide7.jpeg" alt="Slide7" />
     </div>
   </section>
   </div>

@@ -99,41 +99,37 @@ nav {
 
 .slides {
     display: flex;
-    width: 500%; /* Menyesuaikan jumlah slide */
-    animation: slideAnimation 48s infinite;
+    width: 700%; 
+    animation: slideAnimation 56s infinite;
 }
   
 @keyframes slideAnimation {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-    12.5% {
-      transform: translateX(0);
-    }
-  
-    25% {
-      transform: translateX(-12.5%);
-    }
-    37.5% {
-      transform: translateX(-12.5%);
+    14.28% { 
+        transform: translateX(0);
     }
   
-    50% {
-      transform: translateX(-25%);
+    28.56% {
+        transform: translateX(-14.28%); 
     }
-    62.5% {
-      transform: translateX(-25%);
-    }
-  
-    75% {
-      transform: translateX(-37.5%);
-    }
-    87.5% {
-      transform: translateX(-37.5%);
+    42.84% {
+        transform: translateX(-14.28%);
     }
   
+    57.12% {
+        transform: translateX(-28.56%); 
+    }
+    71.40% {
+        transform: translateX(-28.56%);
+    }
+  
+    85.68% {
+        transform: translateX(-42.84%); 
+    }
     100% {
-      transform: translateX(-50%);
+        transform: translateX(-42.84%); 
     }
 }
   
