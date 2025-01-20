@@ -33,15 +33,18 @@
         <h2>Oreo</h2>
         <p>Rp. 30.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1501">
+          <input type="hidden" name="productid" value="1501">
+          <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
+        
       </div>
       <div class="product-mac">
         <img src="assets/layerStrawberry.jpeg" alt="Layer Cake">
         <h2>Strawberry</h2>
         <p>Rp. 30.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1502">
+           <input type="hidden" name="productid" value="1502">
+            <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -49,7 +52,8 @@
         <h2>Vanilla</h2>
         <p>Rp. 30.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1503">
+            <input type="hidden" name="productid" value="1503">
+            <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
     </div>

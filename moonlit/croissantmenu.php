@@ -34,6 +34,7 @@
         <p>Rp. 25.000</p>
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1201">
+  <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -42,6 +43,7 @@
         <p>Rp. 25.000</p>
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1202">
+  <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -50,6 +52,7 @@
         <p>Rp. 25.000</p>
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1203">
+  <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -58,7 +61,9 @@
         <p>Rp. 25.000</p>
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1204">
+  <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
+        
       </div>
     </div>
   </div>

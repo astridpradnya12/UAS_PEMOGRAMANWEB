@@ -33,7 +33,8 @@
         <h2>Chocolate</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1101">
+            <input type="hidden" name="productid" value="1101">
+            <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -41,7 +42,8 @@
         <h2>Blueberry</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1102">
+          <input type="hidden" name="productid" value="1102">
+          <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -49,7 +51,8 @@
         <h2>Lemon</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1103">
+          <input type="hidden" name="productid" value="1103">
+          <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -57,7 +60,8 @@
         <h2>Matcha</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1104">
+          <input type="hidden" name="productid" value="1104">
+          <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       
@@ -66,7 +70,8 @@
         <h2>Orange</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1105">
+          <input type="hidden" name="productid" value="1105">
+          <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -74,7 +79,8 @@
         <h2>Strawberry</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1106">
+           <input type="hidden" name="productid" value="1106">
+           <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -82,7 +88,8 @@
         <h2>Taro</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1107">
+          <input type="hidden" name="productid" value="1107">
+          <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
@@ -90,7 +97,8 @@
         <h2>Vanilla</h2>
         <p>Rp. 16.000</p>
         <form action="add_to_cart.php" method="POST">
-  <input type="hidden" name="productid" value="1108">
+            <input type="hidden" name="productid" value="1108">
+            <input type="number" name="qty" value="1" />
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
     </div>

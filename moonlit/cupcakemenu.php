@@ -36,6 +36,7 @@
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1401">
         <button class="add-to-cart-button">Add to Cart</button>
+        <input type="number" name="qty" value="1" />
       </div>
       <div class="product-mac">
         <img src="assets/cupOreo.jpeg" alt="Cupcake">
@@ -44,6 +45,7 @@
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1402">
         <button class="add-to-cart-button">Add to Cart</button>
+        <input type="number" name="qty" value="1" />
       </div>
       <div class="product-mac">
         <img src="assets/cupLemon.jpeg" alt="Cupcake">
@@ -52,6 +54,7 @@
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1403">
         <button class="add-to-cart-button">Add to Cart</button>
+        <input type="number" name="qty" value="1" />
       </div>
       <div class="product-mac">
         <img src="assets/cupStrawberry.jpeg" alt="Cupcake">
@@ -60,6 +63,7 @@
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1404">
         <button class="add-to-cart-button">Add to Cart</button>
+        <input type="number" name="qty" value="1" />
       </div>
       <div class="product-mac">
         <img src="assets/cupVanStraw.jpeg" alt="Cupcake">
@@ -68,6 +72,7 @@
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1405">
         <button class="add-to-cart-button">Add to Cart</button>
+        <input type="number" name="qty" value="1" />
       </div>
       <div class="product-mac">
         <img src="assets/CupBirthday.jpeg" alt="Cupcake">
@@ -76,6 +81,7 @@
         <form action="add_to_cart.php" method="POST">
   <input type="hidden" name="productid" value="1406">
         <button class="add-to-cart-button">Add to Cart</button>
+        <input type="number" name="qty" value="1" />
       </div>
     </div>
   </div>
