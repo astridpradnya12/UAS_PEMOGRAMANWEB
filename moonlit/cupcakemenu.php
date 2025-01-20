@@ -34,31 +34,37 @@
         <h2>Chocolate</h2>
         <p>Rp. 15.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cupOreo.jpeg" alt="Cupcake">
         <h2>Oreo</h2>
         <p>Rp. 15.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cupLemon.jpeg" alt="Cupcake">
         <h2>Lemon</h2>
         <p>Rp. 15.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cupStrawberry.jpeg" alt="Cupcake">
         <h2>Strawberry</h2>
         <p>Rp. 15.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/cupVanStraw.jpeg" alt="Cupcake">
         <h2>Vanilla Strawberry</h2>
         <p>Rp. 15.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
       <div class="product-mac">
         <img src="assets/CupBirthday.jpeg" alt="Cupcake">
         <h2>Bitrthday</h2>
         <p>Rp. 15.000</p>
       </div>
+      <button class="add-to-cart-button">Add to Cart</button>
     </div>
   </div>
 <footer>
