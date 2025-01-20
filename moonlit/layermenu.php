@@ -32,18 +32,24 @@
         <img src="assets/layerOreo.jpeg" alt="Layer Cake">
         <h2>Oreo</h2>
         <p>Rp. 30.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1501">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/layerStrawberry.jpeg" alt="Layer Cake">
         <h2>Strawberry</h2>
         <p>Rp. 30.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1502">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/layerVanilla.jpeg" alt="Layer Cake">
         <h2>Vanilla</h2>
         <p>Rp. 30.000</p>
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1503">
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
     </div>
