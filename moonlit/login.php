@@ -10,7 +10,7 @@
 <body>
   <div class="header">
     <div class="header-container">
-      <h1>Moonlit Pastry</h1>
+    <img src="assets/LOGO.png" alt="Moonlit Bakery Logo" class="logo">
     </div>
     <div class="header-right">
     <a href="index.php">Home</a>
@@ -40,7 +40,7 @@
     </div>
 
   <form id="formmember" method="post" action="validate_login.php">
-      <label for="username">username:</label>
+      <label for="username">Username:</label>
       <input type="username" id="username" name="username" required>
 
       <label for="password">Password:</label>

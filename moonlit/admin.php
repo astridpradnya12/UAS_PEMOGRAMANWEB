@@ -6,20 +6,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moonlit Bakery</title>
-  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link rel="icon" type="image/x-icon" href="assets/logo.png">
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   <div class="header">
-    <div class="header-container">
+    <div class="header-container h1">
       <h1>Admin</h1>
+      <link rel="stylesheet" type="text/css" href="stylee.css" />
     </div>
     <div class="header-right">
     <a href="logout.php">Logout</a>
     </div>
   </div>
   <div class="main-content">
-    <button> <a href="tambah_user.php">tambah</a></button>
+    <button> <a href="tambah_user.php">Tambah</a></button>
+    <button><a href="produk.php">Stock</a></button>
   <table border="1" cellpadding="10">
         <tr>
             <th>ID</th>

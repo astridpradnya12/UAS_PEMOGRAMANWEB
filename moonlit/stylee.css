@@ -1,0 +1,50 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0;
+}
+
+h1 {
+    background-color: #f8c8dc;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h1 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.header-right a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+

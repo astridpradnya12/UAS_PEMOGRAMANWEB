@@ -1,30 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moonlit Bakery</title>
-  <link rel="icon" type="image/x-icon" href="logo.png">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-  <div class="header">
-    <div class="header-container">
-      <h1>Moonlit Pastry</h1>
-    </div>
-    <div class="header-right">
-      <a href="index.php">Home</a>
-      <a href="menu.php">Menu</a>
-      <a href="login.php">Login</a>
-      <a href="daftar.php">Daftar</a>
-    </div>
-  </div>
+<?php  include 'include/header.php'; ?>
   <div class="main-content">
     <h1>Hello Pinkers, Welcome to Moonlit</h1>
     <p>Love, Sweetness, and a Pink Touch in Every Bite</p>
-    <div class="main-content image">
-      <div class="custom image"><img src="assets/home.jpg"></div>
+    <link rel="stylesheet" href="assets/style.css" />
+  <section class="slider">
+    <div class="slides">      
+        <img src="assets/shop.jpeg" alt="Shop" />     
+        <img src="assets/macCover.jpg" alt="Macaroon" />
+        <img src="assets/croCover.jpg" alt="Croissant" />
+        <img src="assets/cookCover.jpg" alt="Cookies" />
+        <img src="assets/cupCover.jpg" alt="Cupcake" />
+        <img src="assets/layerCover.jpg" alt="Layer Cake" />
+        <img src="assets/driCover.jpg" alt="Drink" />
+        <img src="assets/cover.jpeg" alt="Cover" />
     </div>
+  </section>
   </div>
   <div class="main-content-home">
     <h2>Whats the story behind of this business?</h2>
@@ -34,7 +24,8 @@
   </div>
 
 <script src="script.js".js></script>
-
+</div>
+</body>
 
 <footer>
   <div class="social-links">
@@ -65,5 +56,4 @@
         <p>&copy; 2024 Moonlit. All rights reserved.</p>
     </div>
   </footer>
-</body>
 </html>

@@ -4,20 +4,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.header {
-    background-color: #F8C8DC;
-    padding:15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header-container h1 {
     display: inline-block;
-    gap: 20px;
+    gap: 0px;
     text-decoration: none;
-    color: #333;
     font-size: 4em;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -25,9 +17,51 @@ body {
     margin-top: 0px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+    background-color: #f8c8dc;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 30px;
+}
+
+.nav-links li {
+    margin-left: 1.5em;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header {
+    background-color: #f8c8dc;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+
 .header-right {
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
 
 .header-right a {
@@ -56,6 +90,53 @@ body {
     height: 40px;
 }
 
+.slider {
+    position: relative;
+    width: 100%; /* Lebar landscape */
+    height: 0%; /* Tinggi lebih pendek */
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 500%; /* Menyesuaikan jumlah slide */
+    animation: slideAnimation 48s infinite;
+}
+  
+@keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    12.5% {
+      transform: translateX(0);
+    }
+  
+    25% {
+      transform: translateX(-12.5%);
+    }
+    37.5% {
+      transform: translateX(-12.5%);
+    }
+  
+    50% {
+      transform: translateX(-25%);
+    }
+    62.5% {
+      transform: translateX(-25%);
+    }
+  
+    75% {
+      transform: translateX(-37.5%);
+    }
+    87.5% {
+      transform: translateX(-37.5%);
+    }
+  
+    100% {
+      transform: translateX(-50%);
+    }
+}
+  
 .main-content {
     padding: 20px;
     font-size: 18px;
@@ -79,7 +160,7 @@ body {
 }
 
 .main-content-home p2 {
-    padding: 100px;
+    padding: 20px;
     font-size: 20px;
     text-align: center;
 }
@@ -220,6 +301,21 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.add-to-cart-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: darksalmon; 
 }
 
 #formmember {

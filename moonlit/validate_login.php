@@ -15,11 +15,12 @@ if($cek > 0){
         $_SESSION['username'] = $username;
         $_SESSION['role'] = "admin";
         header("location:admin.php");
+        
     // Cek jika user login sebagai user
     }else if($data['role']=="pelanggan"){
         $_SESSION['username'] = $username;
         $_SESSION['role'] = "pelanggan";
-        header("location:homepage.php");
+        header("location:index.php");
     }
 } else {
     echo "Username atau password salah";
