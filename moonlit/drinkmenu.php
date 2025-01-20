@@ -32,56 +32,96 @@
         <img src="assets/driCoffee.jpeg" alt="Drink">
         <h2>Coffee</h2>
         <p>Rp. 30.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1601">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driInfusedWater.jpeg" alt="Drink">
         <h2>Infused Water</h2>
         <p>Rp. 25.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1602">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driLemonTea.jpeg" alt="Drink">
         <h2>Lemon Tea</h2>
         <p>Rp. 20.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1603">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driLychee.jpeg" alt="Drink">
         <h2>Lychee Tea</h2>
         <p>Rp. 20.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1604">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driMatcha.jpeg" alt="Drink">
         <h2>Matcha</h2>
         <p>Rp. 25.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1605">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driRedVelvet.jpeg" alt="Drink">
         <h2>Red Velvet</h2>
         <p>Rp. 25.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1606">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driTaro.jpeg" alt="Drink">
         <h2>Taro</h2>
         <p>Rp. 25.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1607">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
       <div class="product-mac">
         <img src="assets/driThaitea.jpeg" alt="Drink">
         <h2>Thai Tea</h2>
         <p>Rp. 20.000</p>
+<<<<<<< HEAD
         <input type="number" name="qty" value="1" />
+=======
+        <form action="add_to_cart.php" method="POST">
+  <input type="hidden" name="productid" value="1608">
+>>>>>>> aca41c31c1e05fb8e97f628da54177d154c74603
         <button class="add-to-cart-button">Add to Cart</button>
       </div>
     </div>
